@@ -76,18 +76,16 @@ h1, h2, h3, h4, h5, h6 {
 
 .homepage {
     background-image: url(assets/dandelion.jpg);
-    padding: 150px;
-    height: 150px;
+    padding: 0px;
+    height: 450px;
     background-size: cover;
     background-position: center;
     border-top: 10px solid #21374d;
-    /*Photo by erica steeves on Unsplash*/
-    /*Photo by Dominik Sostmann on Unsplash*/
     /*Photo by Aleksandr Ledogorov on Unsplash*/
 }
 
 .features-section {
-    height: 450px;
+    height: 400px;
     background-color: #ffffff;
     border-top: 10px solid #21374d;    
     color: #3a638a;
@@ -95,53 +93,27 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
     font-family: 'Oswald', sans-serif;
     box-shadow: inset 0px -25px 79px -8px rgba(0,0,0,0.58);
-    }
-
+}
 
 .columns-wrapper {
     width: 1200px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .column-1 {
-    width: 200px;
-    padding: 20px;
-    margin: 42px;
+    padding: 0px;
+    margin: 40px 0px 0px 0px;
     text-align: center;
     font-size:  12px;
+    justify-content: center;
 }
 
 .column-2 {
-    width: 200px;
-    padding: 20px;
-    margin: 42px;
+    padding: 0px;
+    margin: 40px 0px 0px 0px;
     text-align: center;
     font-size:  12px;
-}
-
-/*.column:hover {
-    border-bottom: 5px solid #ffffff;       
-}*/
-
-.footer-wrapper {
-    display: center;
-    background-color: white;
-    color: #1F1E1E;
-    padding: 20px 20% 40px 20%;
-}
-
-.footer-name {
-    font-size: 48px;
-    font-family: 'Oswald', sans-serif;
-}
-
-.footer-column-1 {
-    font-size: 24px;
-    display: center;
-    margin: 60px 15% 20px 35%;
-    line-height: 40px;
-    font-family: 'Oswald', sans-serif;
 }
 
 .social-media-links {
@@ -150,14 +122,11 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 50px;
     text-decoration: none;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    height: 500px;
     width: 1200px;
     position: absolute;
     z-index: 2;
-    margin: 300px 0px 150px 0px;
     justify-content: space-evenly;
+    padding: 250px 0px 0px 0px;
 }
 
 .social-media-links a {
@@ -177,14 +146,36 @@ h1, h2, h3, h4, h5, h6 {
     color: #3a638a;
     font-size: 25px;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    height: 500px;
     width: 1200px;
     position: absolute;
     z-index: 2;
-    margin: 250px 0px 150px 0px;
     justify-content: space-evenly;
+    padding: 200px 0px 0px 0px;
+}
+
+.social-media-links-3 {
+    font-family: 'Oswald', sans-serif;
+    color: #3a638a;
+    font-size: 25px;
+    display: flex;
+    width: 1200px;
+    position: absolute;
+    z-index: 2;
+    justify-content: space-evenly;
+    padding: 0px 0px 0px 0px;
+}
+
+.social-media-links-4 {
+    font-family: 'Oswald', sans-serif;
+    color: #3a638a;
+    font-size: 50px;
+    text-decoration: none;
+    display: flex;
+    width: 1200px;
+    position: absolute;
+    z-index: 2;
+    justify-content: space-evenly;
+    padding: 10px 0px 0px 0px;
 }
 
 .tami-pic {
@@ -208,11 +199,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
   .nav-link-2 a {
-    width: 140px;
-    font-size: 25px;
-    align-items: center;
-    padding: 25px;
+    width: 245px;
     font-size: 20px;
+    text-align: center;
     font-family: 'Oswald', sans-serif; 
     color: #3a638a;
     text-decoration: none;
@@ -225,11 +214,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-link-3 {
-    width: 140px;
-    font-size: 25px;
-    align-items: center;
-    padding: 25px;
+    width: 245px;
     font-size: 20px;
+    justify-content: center;
     font-family: 'Oswald', sans-serif; 
     color: #3a638a;
     text-decoration: none;
