@@ -1,0 +1,249 @@
+body {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+    color: #3a638a;
+}
+
+.header-wrapper {
+   background-color: #ffffff;
+   color:#3a638a;
+   height: 200px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+   padding: 50px 20px;
+}
+
+.header-styles {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+}
+
+.header-styles-2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3em;
+    padding: 20px;
+}
+
+.header-paragraph {
+    font-size: 20px;
+    width: 600px;
+    text-align: center;
+}
+
+.center-column {
+    display: flex;
+    grid-template-columns: 1fr;
+    row-gap: 42px;
+    width: 500px;
+    text-align: center;
+}
+
+.link-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-link {
+    width: 140px;
+    font-size: 25px;
+    text-align: center;
+    padding: 50px;
+}
+
+.link-wrapper a {
+    font-family: 'Oswald', sans-serif;
+    color: #3a638a;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.link-wrapper a:hover {
+   color: #21374d;
+   letter-spacing: 2px;
+   }
+
+.right-column {
+   display: flex;
+   align-items: center;
+   text-align: right;
+}
+
+.homepage {
+    background-image: url(assets/dandelion.jpg);
+    padding: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    border-top: 10px solid #21374d;
+    /*Photo by erica steeves on Unsplash*/
+    /*Photo by Dominik Sostmann on Unsplash*/
+    /*Photo by Aleksandr Ledogorov on Unsplash*/
+}
+
+.features-section {
+    height: 450px;
+    background-color: #ffffff;
+    border-top: 10px solid #21374d;    
+    color: #3a638a;
+    display: flex;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    box-shadow: inset 0px -25px 79px -8px rgba(0,0,0,0.58);
+    }
+
+
+.columns-wrapper {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+}
+
+.column-1 {
+    width: 200px;
+    padding: 20px;
+    margin: 42px;
+    text-align: center;
+    font-size:  12px;
+}
+
+.column-2 {
+    width: 200px;
+    padding: 20px;
+    margin: 42px;
+    text-align: center;
+    font-size:  12px;
+}
+
+/*.column:hover {
+    border-bottom: 5px solid #ffffff;       
+}*/
+
+.footer-wrapper {
+    display: center;
+    background-color: white;
+    color: #1F1E1E;
+    padding: 20px 20% 40px 20%;
+}
+
+.footer-name {
+    font-size: 48px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.footer-column-1 {
+    font-size: 24px;
+    display: center;
+    margin: 60px 15% 20px 35%;
+    line-height: 40px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.social-media-links {
+    font-family: 'Oswald', sans-serif;
+    color: #3a638a;
+    font-size: 50px;
+    text-decoration: none;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 1200px;
+    position: absolute;
+    z-index: 2;
+    margin: 300px 0px 150px 0px;
+    justify-content: space-evenly;
+}
+
+.social-media-links a {
+    font-family: 'Oswald', sans-serif;
+    color: #3a638a;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.social-media-links a:hover {
+    color: #21374d;
+    letter-spacing: 2px;
+}
+
+.social-media-links-2 {
+    font-family: 'Oswald', sans-serif;
+    color: #3a638a;
+    font-size: 25px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 1200px;
+    position: absolute;
+    z-index: 2;
+    margin: 250px 0px 150px 0px;
+    justify-content: space-evenly;
+}
+
+.tami-pic {
+    padding: 10px;
+    margin: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    border: 1px solid #8a817c;
+    box-shadow: 2px 4px 7px #8a817c;
+}
+
+  h1.about-heading {
+    width: 400px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  .nav-link-2 a {
+    width: 140px;
+    font-size: 25px;
+    align-items: center;
+    padding: 25px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif; 
+    color: #3a638a;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.nav-link-2 a:hover {
+    color: #21374d;
+    letter-spacing: 2px;
+}
+
+.nav-link-3 {
+    width: 140px;
+    font-size: 25px;
+    align-items: center;
+    padding: 25px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif; 
+    color: #3a638a;
+    text-decoration: none;
+}
+
+.about-page {
+    height: 150px;
+    font-family: 'Oswald', sans-serif; 
+    color: #3a638a;
+    display: flex;
+    justify-content: center;
+}
+
+.about-paragraph {
+    font-size: 20px;
+    width: 600px;
+}
