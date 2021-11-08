@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .features-section {
-    height: 400px;
+    height: 500px;
     background-color: #ffffff;
     border-top: 10px solid #21374d;    
     color: #3a638a;
@@ -116,7 +116,6 @@ h1, h2, h3, h4, h5, h6 {
     margin: 40px 0px 0px 0px;
     text-align: center;
     font-size:  12px;
-    justify-content: center;
 }
 
 .column-2 {
@@ -133,10 +132,10 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     display: flex;
     width: 1200px;
-    position: absolute;
+    position:relative;
     z-index: 2;
-    justify-content: space-evenly;
-    padding: 250px 0px 0px 0px;
+    justify-content:space-evenly;
+    padding: 90px 0px 0px 0px;
 }
 
 .social-media-links a {
@@ -160,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     z-index: 2;
     justify-content: space-evenly;
-    padding: 200px 0px 0px 0px;
+    padding: 50px 0px 0px 0px;
 }
 
 .social-media-links-3 {
