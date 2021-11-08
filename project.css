@@ -19,6 +19,17 @@ h1, h2, h3, h4, h5, h6 {
    padding: 50px 20px;
 }
 
+.header-wrapper-2 {
+    background-color: #ffffff;
+    color:#3a638a;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: none;
+ }
+
 .header-styles {
     font-family: 'Oswald', sans-serif;
     font-size: 2em;
@@ -66,7 +77,7 @@ h1, h2, h3, h4, h5, h6 {
 .link-wrapper a:hover {
    color: #21374d;
    letter-spacing: 2px;
-   }
+}
 
 .right-column {
    display: flex;
@@ -77,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
 .homepage {
     background-image: url(assets/dandelion.jpg);
     padding: 0px;
-    height: 450px;
+    height: 425px;
     background-size: cover;
     background-position: center;
     border-top: 10px solid #21374d;
@@ -96,7 +107,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .columns-wrapper {
-    width: 1200px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -158,11 +168,8 @@ h1, h2, h3, h4, h5, h6 {
     color: #3a638a;
     font-size: 25px;
     display: flex;
-    width: 1200px;
-    position: absolute;
     z-index: 2;
     justify-content: space-evenly;
-    padding: 0px 0px 0px 0px;
 }
 
 .social-media-links-4 {
@@ -175,7 +182,14 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     z-index: 2;
     justify-content: space-evenly;
-    padding: 10px 0px 0px 0px;
+    padding: 100px 0px 0px 0px;
+}
+
+.social-media-links-4 a {
+    font-family: 'Oswald', sans-serif;
+    color: #3a638a;
+    text-decoration: none;
+    transition: 0.5s;
 }
 
 .tami-pic {
@@ -223,7 +237,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .about-page {
-    height: 150px;
     font-family: 'Oswald', sans-serif; 
     color: #3a638a;
     display: flex;
