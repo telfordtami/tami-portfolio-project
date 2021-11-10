@@ -56,7 +56,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .center-column-2 {
-    align-items: center;
+    /*align-items: center;*/
     margin: 0px 200px 0px 200px;
     display: flex;
     flex-direction: column;
@@ -222,10 +222,10 @@ h1, h2, h3, h4, h5, h6 {
 .about-heading-2 {
     color: #3a638a;
     font-family: 'Oswald', sans-serif;
-    text-align: left;
-    display: block;
-    margin-left: auto;
+    font-size: 20px;
     margin-right: auto;
+    text-align: left;
+    padding: 0px 0px 10px 0px;
 }
 
 h1.about-heading {
@@ -295,10 +295,11 @@ h3.about-heading {
     color: #3a638a;
     font-size: 18px;
     justify-content: left;
-    text-align: justify;
+    padding: 0px 0px 10px 0px;
 }
 
 .list-item {
     color: #3a638a;
-    font-size: 18px;
+    font-size: 18px;  
 }
+
