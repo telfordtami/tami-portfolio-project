@@ -55,6 +55,14 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
+.center-column-2 {
+    align-items: center;
+    margin: 0px 200px 0px 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
 .link-wrapper {
     display: flex;
     justify-content: space-evenly;
@@ -202,7 +210,43 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 2px 4px 7px #8a817c;
 }
 
-  h1.about-heading {
+.about-heading {
+    color: #3a638a;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-heading-2 {
+    color: #3a638a;
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1.about-heading {
+    width: 400px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2.about-heading {
+    width: 400px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3.about-heading {
     width: 400px;
     font-family: 'Oswald', sans-serif;
     text-align: center;
@@ -245,4 +289,16 @@ h1, h2, h3, h4, h5, h6 {
 .about-paragraph {
     font-size: 20px;
     width: 600px;
+}
+
+.about-paragraph-2 {
+    color: #3a638a;
+    font-size: 18px;
+    justify-content: left;
+    text-align: justify;
+}
+
+.list-item {
+    color: #3a638a;
+    font-size: 18px;
 }
